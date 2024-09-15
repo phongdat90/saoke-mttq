@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('statements', function (Blueprint $table) {
             $table->id();
-            $table->date('send_at')->index();
+            $table->dateTime('send_at')->index();
             $table->string('transaction_id', 20)->nullable()->index();
             $table->double('amount')->index();
             $table->text('description');
