@@ -9,10 +9,6 @@ class StatementService
     {
         $dataSearch = $request->all();
 
-        if(!empty($dataSearch['page']) && $dataSearch['page'] == 'all') {
-            return Statement::all();
-        }
-
         $query = Statement::query();
 
         if(!empty($dataSearch['description'])) {
