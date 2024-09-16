@@ -15,4 +15,4 @@ for i in range(0, len(pdf.pages)):
  table = page.extract_table()
  each_page_data = pd.DataFrame(table[1:], columns=df.columns)
  df = pd.concat([df, each_page_data], ignore_index=True)
- df.to_csv('test.csv')
+ df.to_csv('data.csv')
