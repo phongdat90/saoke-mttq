@@ -14,4 +14,4 @@
 - php artisan app:save-data bidv.csv
 
 ### Google hoặc dùng tool PYTHON với từ khóa convert pdf to csv
-
+Mình có có viết 1 đoạn code python 5,7 dòng đễ convert ra pdf. bạn nào biết python thì có thể tham khảo. chỉ 5,7 dòng đơn giản về python mình copy trên google thôi. là có thể convert pdf sang csv rồi
