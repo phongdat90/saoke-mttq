@@ -6,6 +6,8 @@
 - composer install
 - create key: php artisan key:generate
 - create migrate: php artisan migrate
+- npm install
+- npm run dev
 
 ### Save data = command
 - php artisan app:save-data vietcom-01-10.csv
